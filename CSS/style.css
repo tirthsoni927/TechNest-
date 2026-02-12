@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section {
+  padding: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff9800;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.price {
+  color: #4caf50;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #555;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
